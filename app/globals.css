@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .bubble {
+        @apply p-1;
+        @apply rounded-md;
+    }
+    li {
+        @apply p-1 w-[30%];
+    }
+    .inputField{
+        @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-gray-800 text-yellow-200 placeholder-gray-500 transition-all focus:border-yellow-200/10 focus:text-yellow-400 hover:border-yellow-700;
+    }
+}
